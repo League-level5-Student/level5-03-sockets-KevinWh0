@@ -36,6 +36,7 @@ public class Client {
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+			System.out.println(connection);
 		}
 		
 		while (connection.isConnected()) {
